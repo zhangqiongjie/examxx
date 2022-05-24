@@ -29,9 +29,9 @@
 
 ##使用
 - [Exam++](http://www.examxx.net)采用了mysql数据库，因此，请安装mysql（5.0以上版本），安装完毕后，请创建一个名为examxx的数据库，并将doc目录下的数据库文件`examxx.sql`导入到数据库。
-- Type below command to package war package(examxx-0.0.1-SNAPSHOT.war)
+- Type below command to package war package(examxx-0.0.1-SNAPSHOT.war)<br/>
   $ mvn package -DskipTests
-- If get dependencies issue such like missing kaptcha..., you can execute below command to install it then try again.
+- If get dependencies issue such like missing kaptcha..., you can execute below command to install it then try again.<br/>
   mvn install:install-file -DgroupId=com.google.code -DartifactId=kaptcha -Dversion=2.3.2 -Dfile=./kaptcha/kaptcha-2.3.2.jar -Dpackaging=jar -DgeneratePom=true
 - 将examxx.war拷贝到tomcat目录下的webapps目录中。
 - tomcat启动后，war包自动部署到tomcat，打开webapps\examxx\WEB-INF\spring\root-context.xml修改数据库配置，填写你自己的数据库信息，如下：
