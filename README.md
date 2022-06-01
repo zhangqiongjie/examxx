@@ -43,6 +43,7 @@
 - 点击右上角登录按钮，输入用户名admin和密码123456即可登录系统。
 
 ##问题
+- 如果打包报错参考：https://developpaper.com/com-google-code-kaptcha-solutions-that-cannot-be-downloaded-from-maven-central-warehouse/
 - 如果有任何问题或者建议请发email：<zhangqiongjie@zhangqiongjie.com>。 建议与问题一经采纳即会将您的贡献大名列入[Exam++](http://www.examxx.net)的感谢名单中。
 - 或加入QQ群和我们一起讨论吧！
 [![](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=b365bd36df1bd42ffcf8ab7b91fb93f21841548bcda6ec721de276bae9f72e35)
